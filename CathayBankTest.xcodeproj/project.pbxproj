@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF476012C748A6D00812D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476002C748A6D00812D2C /* AppDelegate.swift */; };
+		DEF476032C748A6D00812D2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476022C748A6D00812D2C /* SceneDelegate.swift */; };
+		DEF476052C748A6D00812D2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476042C748A6D00812D2C /* ViewController.swift */; };
+		DEF476082C748A6D00812D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF476062C748A6D00812D2C /* Main.storyboard */; };
+		DEF4760A2C748A6D00812D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF476092C748A6D00812D2C /* Assets.xcassets */; };
+		DEF4760D2C748A6D00812D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF4760B2C748A6D00812D2C /* LaunchScreen.storyboard */; };
+		DEF476182C748A6E00812D2C /* CathayBankTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476172C748A6E00812D2C /* CathayBankTestTests.swift */; };
+		DEF476222C748A6E00812D2C /* CathayBankTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476212C748A6E00812D2C /* CathayBankTestUITests.swift */; };
+		DEF476242C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEF476142C748A6E00812D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF475F52C748A6D00812D2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF475FC2C748A6D00812D2C;
+			remoteInfo = CathayBankTest;
+		};
+		DEF4761E2C748A6E00812D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF475F52C748A6D00812D2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF475FC2C748A6D00812D2C;
+			remoteInfo = CathayBankTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEF475FD2C748A6D00812D2C /* CathayBankTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CathayBankTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF476002C748A6D00812D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEF476022C748A6D00812D2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEF476042C748A6D00812D2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEF476072C748A6D00812D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEF476092C748A6D00812D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF4760C2C748A6D00812D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEF4760E2C748A6D00812D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF476132C748A6E00812D2C /* CathayBankTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathayBankTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF476172C748A6E00812D2C /* CathayBankTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayBankTestTests.swift; sourceTree = "<group>"; };
+		DEF4761D2C748A6E00812D2C /* CathayBankTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathayBankTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF476212C748A6E00812D2C /* CathayBankTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayBankTestUITests.swift; sourceTree = "<group>"; };
+		DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayBankTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF475FA2C748A6D00812D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF476102C748A6E00812D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF4761A2C748A6E00812D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF475F42C748A6D00812D2C = {
+			isa = PBXGroup;
+			children = (
+				DEF475FF2C748A6D00812D2C /* CathayBankTest */,
+				DEF476162C748A6E00812D2C /* CathayBankTestTests */,
+				DEF476202C748A6E00812D2C /* CathayBankTestUITests */,
+				DEF475FE2C748A6D00812D2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF475FE2C748A6D00812D2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF475FD2C748A6D00812D2C /* CathayBankTest.app */,
+				DEF476132C748A6E00812D2C /* CathayBankTestTests.xctest */,
+				DEF4761D2C748A6E00812D2C /* CathayBankTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF475FF2C748A6D00812D2C /* CathayBankTest */ = {
+			isa = PBXGroup;
+			children = (
+				DEF476002C748A6D00812D2C /* AppDelegate.swift */,
+				DEF476022C748A6D00812D2C /* SceneDelegate.swift */,
+				DEF476042C748A6D00812D2C /* ViewController.swift */,
+				DEF476062C748A6D00812D2C /* Main.storyboard */,
+				DEF476092C748A6D00812D2C /* Assets.xcassets */,
+				DEF4760B2C748A6D00812D2C /* LaunchScreen.storyboard */,
+				DEF4760E2C748A6D00812D2C /* Info.plist */,
+			);
+			path = CathayBankTest;
+			sourceTree = "<group>";
+		};
+		DEF476162C748A6E00812D2C /* CathayBankTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF476172C748A6E00812D2C /* CathayBankTestTests.swift */,
+			);
+			path = CathayBankTestTests;
+			sourceTree = "<group>";
+		};
+		DEF476202C748A6E00812D2C /* CathayBankTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF476212C748A6E00812D2C /* CathayBankTestUITests.swift */,
+				DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */,
+			);
+			path = CathayBankTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF475FC2C748A6D00812D2C /* CathayBankTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF476272C748A6E00812D2C /* Build configuration list for PBXNativeTarget "CathayBankTest" */;
+			buildPhases = (
+				DEF475F92C748A6D00812D2C /* Sources */,
+				DEF475FA2C748A6D00812D2C /* Frameworks */,
+				DEF475FB2C748A6D00812D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CathayBankTest;
+			productName = CathayBankTest;
+			productReference = DEF475FD2C748A6D00812D2C /* CathayBankTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEF476122C748A6E00812D2C /* CathayBankTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF4762A2C748A6E00812D2C /* Build configuration list for PBXNativeTarget "CathayBankTestTests" */;
+			buildPhases = (
+				DEF4760F2C748A6E00812D2C /* Sources */,
+				DEF476102C748A6E00812D2C /* Frameworks */,
+				DEF476112C748A6E00812D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF476152C748A6E00812D2C /* PBXTargetDependency */,
+			);
+			name = CathayBankTestTests;
+			productName = CathayBankTestTests;
+			productReference = DEF476132C748A6E00812D2C /* CathayBankTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEF4761C2C748A6E00812D2C /* CathayBankTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF4762D2C748A6E00812D2C /* Build configuration list for PBXNativeTarget "CathayBankTestUITests" */;
+			buildPhases = (
+				DEF476192C748A6E00812D2C /* Sources */,
+				DEF4761A2C748A6E00812D2C /* Frameworks */,
+				DEF4761B2C748A6E00812D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF4761F2C748A6E00812D2C /* PBXTargetDependency */,
+			);
+			name = CathayBankTestUITests;
+			productName = CathayBankTestUITests;
+			productReference = DEF4761D2C748A6E00812D2C /* CathayBankTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF475F52C748A6D00812D2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DEF475FC2C748A6D00812D2C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DEF476122C748A6E00812D2C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DEF475FC2C748A6D00812D2C;
+					};
+					DEF4761C2C748A6E00812D2C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DEF475FC2C748A6D00812D2C;
+					};
+				};
+			};
+			buildConfigurationList = DEF475F82C748A6D00812D2C /* Build configuration list for PBXProject "CathayBankTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEF475F42C748A6D00812D2C;
+			productRefGroup = DEF475FE2C748A6D00812D2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF475FC2C748A6D00812D2C /* CathayBankTest */,
+				DEF476122C748A6E00812D2C /* CathayBankTestTests */,
+				DEF4761C2C748A6E00812D2C /* CathayBankTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF475FB2C748A6D00812D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF4760D2C748A6D00812D2C /* LaunchScreen.storyboard in Resources */,
+				DEF4760A2C748A6D00812D2C /* Assets.xcassets in Resources */,
+				DEF476082C748A6D00812D2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF476112C748A6E00812D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF4761B2C748A6E00812D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF475F92C748A6D00812D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF476052C748A6D00812D2C /* ViewController.swift in Sources */,
+				DEF476012C748A6D00812D2C /* AppDelegate.swift in Sources */,
+				DEF476032C748A6D00812D2C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF4760F2C748A6E00812D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF476182C748A6E00812D2C /* CathayBankTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF476192C748A6E00812D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF476242C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift in Sources */,
+				DEF476222C748A6E00812D2C /* CathayBankTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF476152C748A6E00812D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF475FC2C748A6D00812D2C /* CathayBankTest */;
+			targetProxy = DEF476142C748A6E00812D2C /* PBXContainerItemProxy */;
+		};
+		DEF4761F2C748A6E00812D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF475FC2C748A6D00812D2C /* CathayBankTest */;
+			targetProxy = DEF4761E2C748A6E00812D2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEF476062C748A6D00812D2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF476072C748A6D00812D2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEF4760B2C748A6D00812D2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF4760C2C748A6D00812D2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF476252C748A6E00812D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEF476262C748A6E00812D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF476282C748A6E00812D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CathayBankTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.yoda.CathayBankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF476292C748A6E00812D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CathayBankTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.yoda.CathayBankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEF4762B2C748A6E00812D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.yoda.CathayBankTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CathayBankTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CathayBankTest";
+			};
+			name = Debug;
+		};
+		DEF4762C2C748A6E00812D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.yoda.CathayBankTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CathayBankTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CathayBankTest";
+			};
+			name = Release;
+		};
+		DEF4762E2C748A6E00812D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.yoda.CathayBankTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CathayBankTest;
+			};
+			name = Debug;
+		};
+		DEF4762F2C748A6E00812D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.yoda.CathayBankTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CathayBankTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF475F82C748A6D00812D2C /* Build configuration list for PBXProject "CathayBankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF476252C748A6E00812D2C /* Debug */,
+				DEF476262C748A6E00812D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF476272C748A6E00812D2C /* Build configuration list for PBXNativeTarget "CathayBankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF476282C748A6E00812D2C /* Debug */,
+				DEF476292C748A6E00812D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF4762A2C748A6E00812D2C /* Build configuration list for PBXNativeTarget "CathayBankTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF4762B2C748A6E00812D2C /* Debug */,
+				DEF4762C2C748A6E00812D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF4762D2C748A6E00812D2C /* Build configuration list for PBXNativeTarget "CathayBankTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF4762E2C748A6E00812D2C /* Debug */,
+				DEF4762F2C748A6E00812D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF475F52C748A6D00812D2C /* Project object */;
+}
