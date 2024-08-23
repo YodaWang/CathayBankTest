@@ -16,6 +16,8 @@
 		DEF476182C748A6E00812D2C /* CathayBankTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476172C748A6E00812D2C /* CathayBankTestTests.swift */; };
 		DEF476222C748A6E00812D2C /* CathayBankTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476212C748A6E00812D2C /* CathayBankTestUITests.swift */; };
 		DEF476242C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */; };
+		DEF476322C74EB7C00812D2C /* UIColor+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476312C74EB7C00812D2C /* UIColor+Brand.swift */; };
+		DEF476382C76D8DD00812D2C /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476362C76D8DD00812D2C /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DEF4761D2C748A6E00812D2C /* CathayBankTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathayBankTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF476212C748A6E00812D2C /* CathayBankTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayBankTestUITests.swift; sourceTree = "<group>"; };
 		DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayBankTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEF476312C74EB7C00812D2C /* UIColor+Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Brand.swift"; sourceTree = "<group>"; };
+		DEF476362C76D8DD00812D2C /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		DEF475FF2C748A6D00812D2C /* CathayBankTest */ = {
 			isa = PBXGroup;
 			children = (
+				DEF476332C76D7C400812D2C /* ViewController */,
+				DEF476302C74EB3E00812D2C /* Extension */,
 				DEF476002C748A6D00812D2C /* AppDelegate.swift */,
 				DEF476022C748A6D00812D2C /* SceneDelegate.swift */,
 				DEF476042C748A6D00812D2C /* ViewController.swift */,
@@ -125,6 +131,22 @@
 				DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */,
 			);
 			path = CathayBankTestUITests;
+			sourceTree = "<group>";
+		};
+		DEF476302C74EB3E00812D2C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEF476312C74EB7C00812D2C /* UIColor+Brand.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DEF476332C76D7C400812D2C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF476362C76D8DD00812D2C /* FriendsViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF476052C748A6D00812D2C /* ViewController.swift in Sources */,
+				DEF476382C76D8DD00812D2C /* FriendsViewController.swift in Sources */,
+				DEF476322C74EB7C00812D2C /* UIColor+Brand.swift in Sources */,
 				DEF476012C748A6D00812D2C /* AppDelegate.swift in Sources */,
 				DEF476032C748A6D00812D2C /* SceneDelegate.swift in Sources */,
 			);
