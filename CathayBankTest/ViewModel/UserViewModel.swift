@@ -17,8 +17,10 @@ class UserViewModel {
                let content = ApiResponse<[User]>.response(from: data) {
                 
                 self?.user = content.response?.first
+                DispatchQueue.main.async {
+                    self?.onDataFetch?()
+                }
                 
-                self?.onDataFetch?()
                 
             }
         }.resume()

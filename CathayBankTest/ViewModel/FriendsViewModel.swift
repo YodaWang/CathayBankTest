@@ -57,7 +57,10 @@ class FriendsViewModel {
                     self?.allFriendsList = content.response
                     self?.didFetchCount += 1
                     if self?.didFetchCount == demoType.fetchApiCount {
-                        self?.onDataFetch?()
+                        DispatchQueue.main.async {
+                            self?.onDataFetch?()
+                        }
+                        
                     }
                 }
             }.resume()
@@ -76,7 +79,9 @@ class FriendsViewModel {
                     
                     self?.didFetchCount += 1
                     if self?.didFetchCount == demoType.fetchApiCount {
-                        self?.onDataFetch?()
+                        DispatchQueue.main.async {
+                            self?.onDataFetch?()
+                        }
                     }
                 }
             }.resume()
@@ -94,7 +99,9 @@ class FriendsViewModel {
                     
                     self?.didFetchCount += 1
                     if self?.didFetchCount == demoType.fetchApiCount {
-                        self?.onDataFetch?()
+                        DispatchQueue.main.async {
+                            self?.onDataFetch?()
+                        }
                     }
                 }
             }.resume()
@@ -107,7 +114,9 @@ class FriendsViewModel {
                     self?.allFriendsList = content.response
                     self?.didFetchCount += 1
                     if self?.didFetchCount == demoType.fetchApiCount {
-                        self?.onDataFetch?()
+                        DispatchQueue.main.async {
+                            self?.onDataFetch?()
+                        }
                     }
                 }
             }.resume()
