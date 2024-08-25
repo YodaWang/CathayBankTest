@@ -9,11 +9,29 @@ import UIKit
 
 class FriendsViewController: UIViewController {
 
+    var userViewModel:UserViewModel!
+    var friendsViewModel:FriendsViewModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initNavigationItem()
+        userViewModel = UserViewModel()
+        friendsViewModel = FriendsViewModel()
         
+        userViewModel.onDataFetch = {[weak self] in
+            print(self?.userViewModel.user ?? "")
+        }
+        friendsViewModel.onDataFetch = {[weak self] in
+            print(self?.friendsViewModel.invitingAndFinshFriends ?? [])
+            print(self?.friendsViewModel.getInvitingFriends ?? [])
+        }
+        userViewModel.fetchUser()
+        friendsViewModel.fetchFriendsList()
+    }
+    
+    private func initNavigationItem() {
         let atmBarButtonItem = UIBarButtonItem(image: UIImage(named: "icNavPinkWithdraw"), style: .done, target: nil, action: nil)
         atmBarButtonItem.tintColor = UIColor.hotPink
         
@@ -26,8 +44,6 @@ class FriendsViewController: UIViewController {
         self.navigationItem.leftBarButtonItems = [atmBarButtonItem,transferBarButtonItem]
         self.navigationItem.rightBarButtonItems = [scanBarButtonItem]
     }
-
-
     /*
     // MARK: - Navigation
 

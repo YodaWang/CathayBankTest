@@ -18,6 +18,11 @@
 		DEF476242C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */; };
 		DEF476322C74EB7C00812D2C /* UIColor+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476312C74EB7C00812D2C /* UIColor+Brand.swift */; };
 		DEF476382C76D8DD00812D2C /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476362C76D8DD00812D2C /* FriendsViewController.swift */; };
+		DEF4763C2C79AD8400812D2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4763B2C79AD8400812D2C /* User.swift */; };
+		DEF4763E2C79AE3300812D2C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4763D2C79AE3300812D2C /* Friend.swift */; };
+		DEF476412C79DC1E00812D2C /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476402C79DC1E00812D2C /* FriendsViewModel.swift */; };
+		DEF476432C79F34900812D2C /* ApiResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476422C79F34900812D2C /* ApiResponseData.swift */; };
+		DEF476452C7B037C00812D2C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476442C7B037C00812D2C /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		DEF476232C748A6E00812D2C /* CathayBankTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayBankTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DEF476312C74EB7C00812D2C /* UIColor+Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Brand.swift"; sourceTree = "<group>"; };
 		DEF476362C76D8DD00812D2C /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		DEF4763B2C79AD8400812D2C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DEF4763D2C79AE3300812D2C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		DEF476402C79DC1E00812D2C /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
+		DEF476422C79F34900812D2C /* ApiResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponseData.swift; sourceTree = "<group>"; };
+		DEF476442C7B037C00812D2C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,8 @@
 		DEF475FF2C748A6D00812D2C /* CathayBankTest */ = {
 			isa = PBXGroup;
 			children = (
+				DEF4763F2C79DC0100812D2C /* ViewModel */,
+				DEF4763A2C79AD4E00812D2C /* Model */,
 				DEF476332C76D7C400812D2C /* ViewController */,
 				DEF476302C74EB3E00812D2C /* Extension */,
 				DEF476002C748A6D00812D2C /* AppDelegate.swift */,
@@ -147,6 +159,25 @@
 				DEF476362C76D8DD00812D2C /* FriendsViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DEF4763A2C79AD4E00812D2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4763B2C79AD8400812D2C /* User.swift */,
+				DEF4763D2C79AE3300812D2C /* Friend.swift */,
+				DEF476422C79F34900812D2C /* ApiResponseData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEF4763F2C79DC0100812D2C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DEF476402C79DC1E00812D2C /* FriendsViewModel.swift */,
+				DEF476442C7B037C00812D2C /* UserViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,11 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF476412C79DC1E00812D2C /* FriendsViewModel.swift in Sources */,
 				DEF476052C748A6D00812D2C /* ViewController.swift in Sources */,
+				DEF4763E2C79AE3300812D2C /* Friend.swift in Sources */,
+				DEF476452C7B037C00812D2C /* UserViewModel.swift in Sources */,
 				DEF476382C76D8DD00812D2C /* FriendsViewController.swift in Sources */,
+				DEF4763C2C79AD8400812D2C /* User.swift in Sources */,
 				DEF476322C74EB7C00812D2C /* UIColor+Brand.swift in Sources */,
 				DEF476012C748A6D00812D2C /* AppDelegate.swift in Sources */,
 				DEF476032C748A6D00812D2C /* SceneDelegate.swift in Sources */,
+				DEF476432C79F34900812D2C /* ApiResponseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
