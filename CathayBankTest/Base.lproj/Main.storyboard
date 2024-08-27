@@ -50,13 +50,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vcs-uf-XQ6">
-                                <rect key="frame" x="0.0" y="103" width="393" height="160"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="179"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cLV-uk-XBi">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="160"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="179"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8x-tm-r9P">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="112"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名稱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cX-mk-S7u">
                                                         <rect key="frame" x="29.999999999999996" y="15.999999999999998" width="34.666666666666657" height="20.333333333333329"/>
@@ -64,81 +64,137 @@
                                                         <color key="textColor" name="greyishBrown"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wx-rf-egg">
-                                                        <rect key="frame" x="30.000000000000007" y="44.333333333333343" width="104.66666666666669" height="29.666666666666671"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="設定KOKO ID">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
-                                                            <color key="baseForegroundColor" name="greyishBrown"/>
-                                                        </buttonConfiguration>
-                                                    </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgFriendsFemaleDefault" translatesAutoresizingMaskIntoConstraints="NO" id="roe-zo-OKq">
-                                                        <rect key="frame" x="311" y="30" width="52" height="52"/>
+                                                        <rect key="frame" x="311" y="14" width="52" height="52"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="52" id="IRd-we-X3f"/>
                                                             <constraint firstAttribute="height" constant="52" id="wv3-Ej-f4y"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FNM-iZ-alm">
+                                                        <rect key="frame" x="30" y="44.333333333333343" width="121" height="16"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wx-rf-egg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="81" height="16"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="設定KOKO ID">
+                                                                    <color key="titleColor" name="greyishBrown"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDj-fe-P2t">
+                                                                <rect key="frame" x="81" y="0.0" width="40" height="16"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" priority="749" constant="16" id="qQP-be-xEb"/>
+                                                                    <constraint firstAttribute="height" constant="16" id="zyp-7X-Y2W"/>
+                                                                </constraints>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" image="icInfoBackDeepGray"/>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="height" priority="999" constant="80" id="1h6-C5-peP"/>
+                                                    <constraint firstItem="roe-zo-OKq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9cX-mk-S7u" secondAttribute="trailing" constant="8" id="279-w6-3Bn"/>
                                                     <constraint firstItem="roe-zo-OKq" firstAttribute="centerY" secondItem="O8x-tm-r9P" secondAttribute="centerY" id="2Dk-6h-7se"/>
                                                     <constraint firstItem="9cX-mk-S7u" firstAttribute="top" secondItem="O8x-tm-r9P" secondAttribute="top" constant="16" id="3t0-8W-JDO"/>
-                                                    <constraint firstItem="9cX-mk-S7u" firstAttribute="leading" secondItem="7Wx-rf-egg" secondAttribute="leading" id="83e-H8-bqZ"/>
-                                                    <constraint firstItem="7Wx-rf-egg" firstAttribute="top" secondItem="9cX-mk-S7u" secondAttribute="bottom" constant="8" id="B5i-Lf-sz6"/>
+                                                    <constraint firstItem="FNM-iZ-alm" firstAttribute="top" secondItem="9cX-mk-S7u" secondAttribute="bottom" constant="8" id="91b-u3-Omo"/>
+                                                    <constraint firstItem="FNM-iZ-alm" firstAttribute="leading" secondItem="9cX-mk-S7u" secondAttribute="leading" id="JJI-Dx-h0T"/>
                                                     <constraint firstAttribute="trailing" secondItem="roe-zo-OKq" secondAttribute="trailing" constant="30" id="PUV-9F-GsL"/>
+                                                    <constraint firstItem="roe-zo-OKq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FNM-iZ-alm" secondAttribute="trailing" priority="250" constant="8" id="lNI-uN-Etr"/>
                                                     <constraint firstItem="9cX-mk-S7u" firstAttribute="leading" secondItem="O8x-tm-r9P" secondAttribute="leading" constant="30" id="xMq-DS-myy"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDa-zm-sLh">
-                                                <rect key="frame" x="0.0" y="112" width="393" height="0.0"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDa-zm-sLh" customClass="InvitingListView" customModule="CathayBankTest" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="80" width="393" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" id="0KN-yK-HSS"/>
+                                                    <constraint firstAttribute="height" priority="750" id="0KN-yK-HSS"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ns-Uh-LRx">
-                                                <rect key="frame" x="0.0" y="112" width="393" height="48"/>
+                                                <rect key="frame" x="0.0" y="130" width="393" height="48"/>
                                                 <subviews>
-                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0LB-P9-EAp">
-                                                        <rect key="frame" x="16" y="0.0" width="131" height="49"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="48" id="RnQ-eM-3bf"/>
-                                                        </constraints>
-                                                        <segments>
-                                                            <segment title="First"/>
-                                                            <segment title="Second"/>
-                                                        </segments>
-                                                    </segmentedControl>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJY-6a-7ga">
+                                                        <rect key="frame" x="0.0" y="0.0" width="101.33333333333333" height="48"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1GM-Pd-elB" customClass="TabButton" customModule="CathayBankTest" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="48"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="朋友">
+                                                                    <color key="titleColor" name="greyishBrown"/>
+                                                                </state>
+                                                                <buttonConfiguration key="configuration" style="plain" title="朋友">
+                                                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="13"/>
+                                                                    <color key="baseForegroundColor" name="greyishBrown"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfc-Hc-OAz" customClass="TabButton" customModule="CathayBankTest" customModuleProvider="target">
+                                                                <rect key="frame" x="50.666666666666671" y="0.0" width="50.666666666666671" height="48"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="聊天">
+                                                                    <color key="titleColor" name="greyishBrown"/>
+                                                                </state>
+                                                                <buttonConfiguration key="configuration" style="plain" title="聊天">
+                                                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="13"/>
+                                                                    <color key="baseForegroundColor" name="greyishBrown"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0LB-P9-EAp">
+                                                                <rect key="frame" x="101.33333333333333" y="0.0" width="0.0" height="49"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" priority="999" constant="48" id="RnQ-eM-3bf"/>
+                                                                </constraints>
+                                                                <segments>
+                                                                    <segment title="朋友">
+                                                                        <size key="contentOffset" width="0.0" height="2"/>
+                                                                    </segment>
+                                                                    <segment title="聊天">
+                                                                        <size key="contentOffset" width="0.0" height="2"/>
+                                                                    </segment>
+                                                                </segments>
+                                                            </segmentedControl>
+                                                        </subviews>
+                                                    </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="0LB-P9-EAp" secondAttribute="bottom" id="GQ5-jO-lKZ"/>
-                                                    <constraint firstItem="0LB-P9-EAp" firstAttribute="top" secondItem="3Ns-Uh-LRx" secondAttribute="top" id="Po5-V8-dmo"/>
-                                                    <constraint firstItem="0LB-P9-EAp" firstAttribute="leading" secondItem="3Ns-Uh-LRx" secondAttribute="leading" constant="16" id="xEU-qw-wVX"/>
+                                                    <constraint firstAttribute="bottom" secondItem="zJY-6a-7ga" secondAttribute="bottom" id="Aah-xt-BUk"/>
+                                                    <constraint firstItem="zJY-6a-7ga" firstAttribute="leading" secondItem="3Ns-Uh-LRx" secondAttribute="leading" id="DLB-DB-kWa"/>
+                                                    <constraint firstItem="zJY-6a-7ga" firstAttribute="top" secondItem="3Ns-Uh-LRx" secondAttribute="top" id="OZ5-Xs-j4p"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8u-Al-90A">
+                                                <rect key="frame" x="0.0" y="178" width="393" height="1"/>
+                                                <color key="backgroundColor" name="veryLightPink"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" priority="999" constant="1" id="jd7-nT-hc9"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" name="whiteTwo"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="cLV-uk-XBi" secondAttribute="trailing" id="2aQ-hX-Vgr"/>
                                     <constraint firstItem="cLV-uk-XBi" firstAttribute="top" secondItem="Vcs-uf-XQ6" secondAttribute="top" id="64a-oe-laR"/>
-                                    <constraint firstAttribute="height" constant="160" id="g2y-UF-YTg"/>
+                                    <constraint firstAttribute="height" id="OpM-pa-iWf"/>
                                     <constraint firstItem="cLV-uk-XBi" firstAttribute="leading" secondItem="Vcs-uf-XQ6" secondAttribute="leading" id="nW5-q3-uqe"/>
                                     <constraint firstAttribute="bottom" secondItem="cLV-uk-XBi" secondAttribute="bottom" id="wzz-PG-EEy"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OpM-pa-iWf"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zpb-TS-faE">
-                                <rect key="frame" x="0.0" y="263" width="393" height="506"/>
-                                <connections>
-                                    <segue destination="x82-rf-cZN" kind="embed" id="lbf-RT-HS2"/>
-                                </connections>
+                                <rect key="frame" x="0.0" y="282" width="393" height="487"/>
                             </containerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4R9-US-Ljr"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="whiteTwo"/>
                         <constraints>
                             <constraint firstItem="Vcs-uf-XQ6" firstAttribute="top" secondItem="4R9-US-Ljr" secondAttribute="top" id="Dxr-3i-1BB"/>
                             <constraint firstItem="Zpb-TS-faE" firstAttribute="leading" secondItem="4R9-US-Ljr" secondAttribute="leading" id="FSD-5c-rCE"/>
@@ -150,6 +206,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cD2-4i-dU1"/>
+                    <connections>
+                        <outlet property="chatTabButton" destination="Jfc-Hc-OAz" id="9ON-Tq-Uc3"/>
+                        <outlet property="containerView" destination="Zpb-TS-faE" id="Stx-hw-pOS"/>
+                        <outlet property="friendTabButton" destination="1GM-Pd-elB" id="ETX-Me-lCk"/>
+                        <outlet property="hidingConstrainy" destination="OpM-pa-iWf" id="z1u-uu-fhY"/>
+                        <outlet property="idButton" destination="7Wx-rf-egg" id="RmH-Y4-mIm"/>
+                        <outlet property="invitingListView" destination="uDa-zm-sLh" id="Pj5-3r-ThB"/>
+                        <outlet property="nameLabel" destination="9cX-mk-S7u" id="ofQ-Xa-npZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9L-nj-qhQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -175,12 +240,29 @@
         <!--錢錢-->
         <scene sceneID="SMK-L1-H70">
             <objects>
-                <viewController id="UxV-Zd-odp" sceneMemberID="viewController">
+                <viewController id="UxV-Zd-odp" customClass="ApiSettingViewController" customModule="CathayBankTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5zB-bh-C2L">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="y8u-pW-paI">
+                                <rect key="frame" x="29" y="410.66666666666669" width="335" height="32"/>
+                                <segments>
+                                    <segment title="無好友畫⾯"/>
+                                    <segment title="只有好友列表"/>
+                                    <segment title="好友列表含邀請"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onTypeChanged:" destination="UxV-Zd-odp" eventType="valueChanged" id="rbo-3Q-Ejj"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="JGn-Ku-In4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="y8u-pW-paI" firstAttribute="centerY" secondItem="5zB-bh-C2L" secondAttribute="centerY" id="c3z-yh-h7k"/>
+                            <constraint firstItem="y8u-pW-paI" firstAttribute="centerX" secondItem="5zB-bh-C2L" secondAttribute="centerX" id="hoC-zg-nb1"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="錢錢" image="icTabbarProducts" selectedImage="icTabbarProducts" id="cxf-a7-OQL"/>
                 </viewController>
@@ -225,22 +307,9 @@
             </objects>
             <point key="canvasLocation" x="-535" y="1133"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Hb3-y6-ZHB">
-            <objects>
-                <viewController id="x82-rf-cZN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YhS-j4-BuK">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="506"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Aza-gZ-GY4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1119" y="283"/>
-        </scene>
     </scenes>
     <resources>
+        <image name="icInfoBackDeepGray" width="16" height="16"/>
         <image name="icTabbarFriends" width="28" height="28"/>
         <image name="icTabbarManage" width="28" height="28"/>
         <image name="icTabbarProducts" width="28" height="28"/>
@@ -248,6 +317,12 @@
         <image name="imgFriendsFemaleDefault" width="52" height="54"/>
         <namedColor name="greyishBrown">
             <color white="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="veryLightPink">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="whiteTwo">
+            <color red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

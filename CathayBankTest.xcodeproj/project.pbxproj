@@ -23,6 +23,24 @@
 		DEF476412C79DC1E00812D2C /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476402C79DC1E00812D2C /* FriendsViewModel.swift */; };
 		DEF476432C79F34900812D2C /* ApiResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476422C79F34900812D2C /* ApiResponseData.swift */; };
 		DEF476452C7B037C00812D2C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476442C7B037C00812D2C /* UserViewModel.swift */; };
+		DEF476492C7B193E00812D2C /* EmptyFriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476472C7B193E00812D2C /* EmptyFriendListViewController.swift */; };
+		DEF4764A2C7B193E00812D2C /* EmptyFriendListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF476482C7B193E00812D2C /* EmptyFriendListViewController.xib */; };
+		DEF4764C2C7B1D7D00812D2C /* AddFriendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4764B2C7B1D7D00812D2C /* AddFriendButton.swift */; };
+		DEF4764F2C7B7ADB00812D2C /* FriendsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4764D2C7B7ADB00812D2C /* FriendsListTableViewController.swift */; };
+		DEF476502C7B7ADB00812D2C /* FriendsListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF4764E2C7B7ADB00812D2C /* FriendsListTableViewController.xib */; };
+		DEF476532C7B843500812D2C /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476512C7B843500812D2C /* FriendTableViewCell.swift */; };
+		DEF476542C7B843500812D2C /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF476522C7B843500812D2C /* FriendTableViewCell.xib */; };
+		DEF476562C7C217600812D2C /* CellRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476552C7C217600812D2C /* CellRightButton.swift */; };
+		DEF476582C7C2D1D00812D2C /* FriendListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476572C7C2D1D00812D2C /* FriendListHeader.swift */; };
+		DEF4765A2C7C2D2C00812D2C /* FriendListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF476592C7C2D2C00812D2C /* FriendListHeader.xib */; };
+		DEF4765C2C7C48C900812D2C /* UIView+NibHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4765B2C7C48C900812D2C /* UIView+NibHelp.swift */; };
+		DEF4765E2C7C4FB600812D2C /* InvitingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4765D2C7C4FB600812D2C /* InvitingListView.swift */; };
+		DEF476632C7C6A4900812D2C /* InvitingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476612C7C6A4900812D2C /* InvitingCollectionViewCell.swift */; };
+		DEF476642C7C6A4900812D2C /* InvitingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF476622C7C6A4900812D2C /* InvitingCollectionViewCell.xib */; };
+		DEF476662C7CC6C600812D2C /* FlatSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476652C7CC6C600812D2C /* FlatSegmentedControl.swift */; };
+		DEF476682C7CD79500812D2C /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476672C7CD79500812D2C /* TabButton.swift */; };
+		DEF4766A2C7E1AE600812D2C /* ApiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF476692C7E1AE600812D2C /* ApiSettingViewController.swift */; };
+		DEF4766C2C7E274500812D2C /* ApiTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4766B2C7E274500812D2C /* ApiTypeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +81,24 @@
 		DEF476402C79DC1E00812D2C /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
 		DEF476422C79F34900812D2C /* ApiResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponseData.swift; sourceTree = "<group>"; };
 		DEF476442C7B037C00812D2C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		DEF476472C7B193E00812D2C /* EmptyFriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmptyFriendListViewController.swift; path = CathayBankTest/ViewController/EmptyFriendListViewController.swift; sourceTree = SOURCE_ROOT; };
+		DEF476482C7B193E00812D2C /* EmptyFriendListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EmptyFriendListViewController.xib; path = CathayBankTest/ViewController/EmptyFriendListViewController.xib; sourceTree = SOURCE_ROOT; };
+		DEF4764B2C7B1D7D00812D2C /* AddFriendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendButton.swift; sourceTree = "<group>"; };
+		DEF4764D2C7B7ADB00812D2C /* FriendsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewController.swift; sourceTree = "<group>"; };
+		DEF4764E2C7B7ADB00812D2C /* FriendsListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsListTableViewController.xib; sourceTree = "<group>"; };
+		DEF476512C7B843500812D2C /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		DEF476522C7B843500812D2C /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		DEF476552C7C217600812D2C /* CellRightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRightButton.swift; sourceTree = "<group>"; };
+		DEF476572C7C2D1D00812D2C /* FriendListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListHeader.swift; sourceTree = "<group>"; };
+		DEF476592C7C2D2C00812D2C /* FriendListHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendListHeader.xib; sourceTree = "<group>"; };
+		DEF4765B2C7C48C900812D2C /* UIView+NibHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NibHelp.swift"; sourceTree = "<group>"; };
+		DEF4765D2C7C4FB600812D2C /* InvitingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitingListView.swift; sourceTree = "<group>"; };
+		DEF476612C7C6A4900812D2C /* InvitingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitingCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEF476622C7C6A4900812D2C /* InvitingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvitingCollectionViewCell.xib; sourceTree = "<group>"; };
+		DEF476652C7CC6C600812D2C /* FlatSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatSegmentedControl.swift; sourceTree = "<group>"; };
+		DEF476672C7CD79500812D2C /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		DEF476692C7E1AE600812D2C /* ApiSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSettingViewController.swift; sourceTree = "<group>"; };
+		DEF4766B2C7E274500812D2C /* ApiTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTypeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +149,7 @@
 		DEF475FF2C748A6D00812D2C /* CathayBankTest */ = {
 			isa = PBXGroup;
 			children = (
+				DEF476462C7B188000812D2C /* View */,
 				DEF4763F2C79DC0100812D2C /* ViewModel */,
 				DEF4763A2C79AD4E00812D2C /* Model */,
 				DEF476332C76D7C400812D2C /* ViewController */,
@@ -149,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				DEF476312C74EB7C00812D2C /* UIColor+Brand.swift */,
+				DEF4765B2C7C48C900812D2C /* UIView+NibHelp.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -156,7 +194,12 @@
 		DEF476332C76D7C400812D2C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DEF476472C7B193E00812D2C /* EmptyFriendListViewController.swift */,
+				DEF476482C7B193E00812D2C /* EmptyFriendListViewController.xib */,
 				DEF476362C76D8DD00812D2C /* FriendsViewController.swift */,
+				DEF4764D2C7B7ADB00812D2C /* FriendsListTableViewController.swift */,
+				DEF4764E2C7B7ADB00812D2C /* FriendsListTableViewController.xib */,
+				DEF476692C7E1AE600812D2C /* ApiSettingViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -176,8 +219,27 @@
 			children = (
 				DEF476402C79DC1E00812D2C /* FriendsViewModel.swift */,
 				DEF476442C7B037C00812D2C /* UserViewModel.swift */,
+				DEF4766B2C7E274500812D2C /* ApiTypeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DEF476462C7B188000812D2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4764B2C7B1D7D00812D2C /* AddFriendButton.swift */,
+				DEF476512C7B843500812D2C /* FriendTableViewCell.swift */,
+				DEF476522C7B843500812D2C /* FriendTableViewCell.xib */,
+				DEF476552C7C217600812D2C /* CellRightButton.swift */,
+				DEF476572C7C2D1D00812D2C /* FriendListHeader.swift */,
+				DEF476592C7C2D2C00812D2C /* FriendListHeader.xib */,
+				DEF4765D2C7C4FB600812D2C /* InvitingListView.swift */,
+				DEF476612C7C6A4900812D2C /* InvitingCollectionViewCell.swift */,
+				DEF476622C7C6A4900812D2C /* InvitingCollectionViewCell.xib */,
+				DEF476652C7CC6C600812D2C /* FlatSegmentedControl.swift */,
+				DEF476672C7CD79500812D2C /* TabButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,9 +346,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF4764A2C7B193E00812D2C /* EmptyFriendListViewController.xib in Resources */,
+				DEF476542C7B843500812D2C /* FriendTableViewCell.xib in Resources */,
 				DEF4760D2C748A6D00812D2C /* LaunchScreen.storyboard in Resources */,
 				DEF4760A2C748A6D00812D2C /* Assets.xcassets in Resources */,
+				DEF476642C7C6A4900812D2C /* InvitingCollectionViewCell.xib in Resources */,
 				DEF476082C748A6D00812D2C /* Main.storyboard in Resources */,
+				DEF4765A2C7C2D2C00812D2C /* FriendListHeader.xib in Resources */,
+				DEF476502C7B7ADB00812D2C /* FriendsListTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,16 +378,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF476492C7B193E00812D2C /* EmptyFriendListViewController.swift in Sources */,
 				DEF476412C79DC1E00812D2C /* FriendsViewModel.swift in Sources */,
+				DEF476632C7C6A4900812D2C /* InvitingCollectionViewCell.swift in Sources */,
+				DEF4766C2C7E274500812D2C /* ApiTypeViewModel.swift in Sources */,
 				DEF476052C748A6D00812D2C /* ViewController.swift in Sources */,
 				DEF4763E2C79AE3300812D2C /* Friend.swift in Sources */,
+				DEF476662C7CC6C600812D2C /* FlatSegmentedControl.swift in Sources */,
+				DEF476682C7CD79500812D2C /* TabButton.swift in Sources */,
+				DEF4764F2C7B7ADB00812D2C /* FriendsListTableViewController.swift in Sources */,
 				DEF476452C7B037C00812D2C /* UserViewModel.swift in Sources */,
 				DEF476382C76D8DD00812D2C /* FriendsViewController.swift in Sources */,
 				DEF4763C2C79AD8400812D2C /* User.swift in Sources */,
 				DEF476322C74EB7C00812D2C /* UIColor+Brand.swift in Sources */,
+				DEF4766A2C7E1AE600812D2C /* ApiSettingViewController.swift in Sources */,
 				DEF476012C748A6D00812D2C /* AppDelegate.swift in Sources */,
+				DEF4764C2C7B1D7D00812D2C /* AddFriendButton.swift in Sources */,
 				DEF476032C748A6D00812D2C /* SceneDelegate.swift in Sources */,
+				DEF4765C2C7C48C900812D2C /* UIView+NibHelp.swift in Sources */,
+				DEF476562C7C217600812D2C /* CellRightButton.swift in Sources */,
 				DEF476432C79F34900812D2C /* ApiResponseData.swift in Sources */,
+				DEF476582C7C2D1D00812D2C /* FriendListHeader.swift in Sources */,
+				DEF4765E2C7C4FB600812D2C /* InvitingListView.swift in Sources */,
+				DEF476532C7B843500812D2C /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

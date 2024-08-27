@@ -43,6 +43,16 @@ class FriendsViewModel {
             return invitingAndFinshFriends
         }
     }
+    
+    var invitingFriends:[Friend] {
+        get {
+            guard let invitingAndFinshFriends = allFriendsList?.filter({ friend in
+                return friend.status == .inviting
+            }) else { return [] }
+            return invitingAndFinshFriends
+        }
+    }
+    
     func fetchFriendsList(demoType:DemoType = .OnlyFriendList) {
         
         allFriendsList = nil
